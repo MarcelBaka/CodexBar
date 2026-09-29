@@ -1,0 +1,7 @@
+{"timestamp":"2026-09-29T10:00:00Z","type":"session_meta","payload":{"id":"example-thread","cwd":"/tmp/Example","timestamp":"2026-09-29T10:00:00Z","source":"cli"}}
+{"timestamp":"2026-09-29T10:00:01Z","type":"event_msg","payload":{"type":"task_started","turn_id":"example-turn"}}
+{"timestamp":"2026-09-29T10:00:01Z","type":"turn_context","payload":{"model":"example-model","cwd":"/tmp/Example"}}
+{"timestamp":"2026-09-29T10:00:02Z","type":"response_item","payload":{"type":"function_call","name":"update_plan","call_id":"plan-1","arguments":"{\"plan\":[{\"step\":\"Inspect project\",\"status\":\"completed\"},{\"step\":\"Run tests\",\"status\":\"in_progress\"}]}"}}
+{"timestamp":"2026-09-29T10:00:03Z","type":"response_item","payload":{"type":"function_call_output","call_id":"plan-1","output":"Plan updated"}}
+{"timestamp":"2026-09-29T10:00:04Z","type":"event_msg","payload":{"type":"token_count","info":{"last_token_usage":{"total_tokens":1000},"total_token_usage":{"total_tokens":3000},"model_context_window":10000},"rate_limits":null}}
+{"timestamp":"2026-09-29T10:00:10Z","type":"event_msg","payload":{"type":"task_complete","turn_id":"example-turn"}}

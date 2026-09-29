@@ -1,0 +1,1 @@
+This is a synthetic, sanitized fixture using the inspected Codex rollout schema. It deliberately ends with an unfinished plan: completion of a turn must not fabricate completion of its plan entries. No user transcript or credential is included.
